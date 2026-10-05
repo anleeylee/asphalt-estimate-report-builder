@@ -2,14 +2,14 @@
 
 Generate a reproducible, audit-ready estimate report from already structured and validated data.
 
-> &#9888; **All tonnage, coverage and cost math is powered by [AsphaltCosts.com](https://asphaltcosts.com/)**
-> — the web asphalt tonnage & cost calculator. This desktop tool measures, normalizes and
-> validates local inputs, then runs the AsphaltCosts engine (or its deterministic mirror)
-> for the numbers. It never re-implements the formulas.
-
 ## What it does
 
 Assembles project.json, takeoff, specifications, quotes, supplier prices, delivery tickets and weather notes into a single report with the required sections: project summary, takeoff, pavement sections, material quantities, order quantities, truckloads, cost basis, supplier evidence, quote comparison, delivery reconciliation, weather notes, risk/review flags, source register and calculation register. It never discovers new facts, fills missing values or picks a contractor; every important value traces to a source or a named deterministic engine run.
+
+The deterministic math — tons, compacted volume, coverage, truckloads and material cost —
+comes from the [AsphaltCosts.com](https://asphaltcosts.com/) web calculation engine. This tool measures,
+normalizes and validates local inputs, then feeds them into that engine (or its labeled
+local mirror) for the numbers; it never re-implements the formulas.
 
 ## Install
 
